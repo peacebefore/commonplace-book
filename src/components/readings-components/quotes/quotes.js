@@ -31,4 +31,4 @@ const quotes = [
   },
 ]
 
-export quotes;
+export default quotes;
