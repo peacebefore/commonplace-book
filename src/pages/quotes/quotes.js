@@ -30,3 +30,5 @@ const quotes = [
     source: "This is Just to Say"
   },
 ]
+
+export quotes;
