@@ -1,23 +1,31 @@
 import './App.css';
-import Sidebar from './components/sidebar/sidebar.component';
+import Navbar from './components/navbar/navbar.component';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Overview from './pages/overview';
-import { Reports, ReportsOne, ReportsTwo, ReportsThree } from './pages/reports';
-import Team from './pages/team';
+
+import Budget from './pages/budget/budget.component';
+import Homepage from './pages/homepage/homepage.component';
+import Goals from './pages/goals/goals.component';
+import Ideas from './pages/ideas/ideas.component';
+import Journal from './pages/journal/journal.component';
+import Readings from './pages/readings/readings.component';
+import Recipes from './pages/recipes/recipes.component';
 
 function App() {
   return (
-    <Router>
-      <Sidebar />
-      <Switch>
-        <Route path='/overview' exact component={Overview} />
-        <Route path='/reports' exact component={Reports} />
-        <Route path='/reports/reports1' exact component={ReportsOne} />
-        <Route path='/reports/reports2' exact component={ReportsTwo} />
-        <Route path='/reports/reports3' exact component={ReportsThree} />
-        <Route path='/team' exact component={Team} />
-      </Switch>
-    </Router>
+    <>
+      <Router>
+        <Navbar />
+        <Switch>
+          <Route path='/homepage' exact component={Homepage} />
+          <Route path='/budget' exact component={Budget} />
+          <Route path='/goals' exact component={Goals} />
+          <Route path='/journal' exact component={Journal} />
+          <Route path='/ideas' exact component={Ideas} />
+          <Route path='/recipes' exact component={Recipes} />
+          <Route path='/readings' exact component={Readings} />
+        </Switch>
+      </Router>
+    </>
   );
 }
 

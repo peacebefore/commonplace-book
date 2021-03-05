@@ -7,22 +7,17 @@
   font-family: 'Lato', sans-serif;
 }
 
-.home,
-.reports,
-.products,
-.team,
-.reports {
+.homepage,
+.budget,
+.goals,
+.readings,
+.journal,
+.ideas,
+.recipes
+{
   display: flex;
   height: 90vh;
   align-items: center;
   justify-content: center;
   font-size: 3rem;
 }
-
-/* .homepage,
-.budget,
-.goals,
-.readings,
-.journal,
-.ideas,
-.recipes */
