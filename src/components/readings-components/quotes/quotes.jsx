@@ -1,24 +1,21 @@
-import React from "react";
-import QUOTE_DATA from './quotes.data';
-import { useFetch } from "./hooks";
+import Card from 'react-bootstrap/Card';
+import QUOTE_DATA from './quote-data';
+import './quotes.styles.scss';
 
-function Quotes() {
-  const localQuotes = QUOTE_DATA;
-  const [quotes] = useFetch(localQuotes);
+const QuotesList = QUOTE_DATA.map( (quotes) => {
   return (
-    <>
-      <h1>Quotes</h1>
-      <ul>
-        {quotes.map(({ id, text, author, source }) => (
-          <li key={`quote-${id}`}>
-            <span>{text}</span>
-            <span>{author}</span>
-            <span>{source}</span>
-          </li>
-        ))}
-      </ul>
-    </>
+    <Card key = {quotes.id}>
+      <Card.Body>
+        <Card.Title>{quotes.source}</Card.Title>
+        <Card.Text>
+          <span>{quotes.text}</span>
+          <span>{quotes.author}</span>
+        </Card.Text>
+      </Card.Body>
+    </Card>
   );
-}
+});
 
-export default Quotes;
+
+
+export default QuotesList;
