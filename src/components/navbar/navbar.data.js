@@ -32,12 +32,6 @@ export const NavbarData = [
     cName: 'nav-text'
   },
   {
-    title: 'Recipes',
-    path: '/recipes',
-    icon: <FaIcons.FaUtensils />,
-    cName: 'nav-text'
-  },
-  {
     title: 'Readings',
     path: '/readings',
     icon: <FaIcons.FaRegBookmark />,

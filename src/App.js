@@ -8,7 +8,6 @@ import Goals from './pages/goals/goals.component';
 import Ideas from './pages/ideas/ideas.component';
 import Journal from './pages/journal/journal.component';
 import Readings from './pages/readings/readings.component';
-import Recipes from './pages/recipes/recipes.component';
 
 function App() {
   return (
@@ -21,7 +20,6 @@ function App() {
           <Route path='/goals' exact component={Goals} />
           <Route path='/journal' exact component={Journal} />
           <Route path='/ideas' exact component={Ideas} />
-          <Route path='/recipes' exact component={Recipes} />
           <Route path='/readings' exact component={Readings} />
         </Switch>
       </Router>
