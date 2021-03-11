@@ -1,21 +1,29 @@
-import Card from 'react-bootstrap/Card';
+import styled from 'styled-components';
+import Card from './card.component';
 import QUOTE_DATA from './quote-data';
-import './quotes.styles.scss';
 
-const QuotesList = QUOTE_DATA.map( (quotes) => {
-  return (
-    <Card key = {quotes.id}>
-      <Card.Body>
-        <Card.Title>{quotes.source}</Card.Title>
-        <Card.Text>
-          <span>{quotes.text}</span>
-          <span>{quotes.author}</span>
-        </Card.Text>
-      </Card.Body>
-    </Card>
-  );
+
+const StyledRoot = styled.div`
+  padding: 50px 12px;
+`
+
+const StyledContainer = styled.div`
+  max-width: 550px;
+  width: 100%;
+  margin: auto;
+`
+
+export const QuotesList = QUOTE_DATA.map((quotes) => {
+    return (
+      <StyledRoot>
+        <StyledContainer>
+          <Card 
+            key={quotes.id}
+            source={quotes.source}
+            author={quotes.author}
+            text={quotes.text}
+          />
+        </StyledContainer>
+      </StyledRoot>
+    )
 });
-
-
-
-export default QuotesList;

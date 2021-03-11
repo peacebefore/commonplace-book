@@ -1,7 +1,6 @@
 // includes quotes, books I've read, things I want to read or watch, things I want to keep for reference (resources)
 
-import QuotesList from '../../components/readings-components/quotes/quotes';
-import './readings.styles.scss';
+import { QuotesList } from '../../components/readings-components/quotes/quotes';
 
 const Readings = () => {
   return (
