@@ -4,6 +4,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './App.scss';
 import './index.scss';
+import './fonts/Kalam-Bold.ttf';
 
 ReactDOM.render(
   <React.StrictMode>

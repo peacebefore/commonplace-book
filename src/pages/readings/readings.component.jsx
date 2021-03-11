@@ -1,12 +1,20 @@
-// includes quotes, books I've read, things I want to read or watch, things I want to keep for reference (resources)
+import QuotesList from '../../components/readings-components/quotes/quotes';
+import styled from 'styled-components';
+import background from '../../rebecca-g0GUAWtOh1c-unsplash.jpg';
 
-import { QuotesList } from '../../components/readings-components/quotes/quotes';
+const StyledContainer = styled.div`
+  background-image: url(${background});
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+`
 
 const Readings = () => {
   return (
-    <div className='readings'>
+    <StyledContainer className='readings'>
       {QuotesList}
-    </div>
+    </StyledContainer>
   );
 };
 

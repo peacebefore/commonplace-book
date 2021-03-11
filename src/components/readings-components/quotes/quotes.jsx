@@ -2,7 +2,6 @@ import styled from 'styled-components';
 import Card from './card.component';
 import QUOTE_DATA from './quote-data';
 
-
 const StyledRoot = styled.div`
   padding: 50px 12px;
 `
@@ -13,8 +12,8 @@ const StyledContainer = styled.div`
   margin: auto;
 `
 
-export const QuotesList = QUOTE_DATA.map((quotes) => {
-    return (
+const QuotesList = QUOTE_DATA.map((quotes) => {
+  return (
       <StyledRoot>
         <StyledContainer>
           <Card 
@@ -27,3 +26,5 @@ export const QuotesList = QUOTE_DATA.map((quotes) => {
       </StyledRoot>
     )
 });
+
+export default QuotesList;

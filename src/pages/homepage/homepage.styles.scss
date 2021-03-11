@@ -1,5 +1,10 @@
 .homepage {
-  background-image: url('../../assets/white_by_tuyetdinhsinhvat_d5b14h0-fullview.jpg');
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-image: url('../../white_by_tuyetdinhsinhvat_d5b14h0-fullview.jpg');
   background-position: center;
   background-size: cover;
+  opacity: 0.6;
+  z-index: 1;
 }
