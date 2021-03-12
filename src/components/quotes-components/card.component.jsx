@@ -4,7 +4,7 @@ const StyledContainer = styled.div`
   border: 1px solid;
   padding: 25px 12px 18px;
   background: rgba(247, 83, 118, 0.2);
-  font-family: 'Kalam', cursive;
+  font-family: 'Merienda One';
 `
 const Source = styled.h2`
   color: #520012;

@@ -5,6 +5,9 @@ import reportWebVitals from './reportWebVitals';
 import './App.scss';
 import './index.scss';
 import './fonts/Kalam-Bold.ttf';
+import './fonts/AkayaTelivigala-Regular.ttf';
+import './fonts/Handlee-Regular.ttf';
+import './fonts/MeriendaOne-Regular.ttf';
 
 ReactDOM.render(
   <React.StrictMode>
