@@ -1,13 +1,14 @@
 // current expenses and due dates. include calculator function and way to track things we want to save for. Track income and loan payments
 
-import './budget.styles.scss';
+import Budget from '../../components/budget-components/budget/budget.component';
 
-const Budget = () => {
+const BudgetPage = () => {
   return (
     <div className='budget'>
       <h1>Budget</h1>
+      <Budget />
     </div>
   );
 };
 
-export default Budget;
+export default BudgetPage;

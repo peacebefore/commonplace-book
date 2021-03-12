@@ -1,11 +1,9 @@
-import './ideas.styles.scss';
-
 const Ideas = () => {
   return (
-    <div className='ideas'>
+    <div>
       <h1>Ideas</h1>
     </div>
   );
-};
+}
 
 export default Ideas;

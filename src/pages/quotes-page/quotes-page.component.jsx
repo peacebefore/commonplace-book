@@ -1,4 +1,4 @@
-import QuotesList from '../../components/readings-components/quotes/quotes';
+import QuotesList from '../../components/quotes-components/quotes';
 import styled from 'styled-components';
 import background from '../../rebecca-g0GUAWtOh1c-unsplash.jpg';
 
