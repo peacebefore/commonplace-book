@@ -7,3 +7,5 @@ const Journal = () => {
 }
 
 export default Journal;
+
+// add ability to add, edit, or delete entries

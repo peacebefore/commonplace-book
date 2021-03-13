@@ -7,3 +7,5 @@ const Ideas = () => {
 }
 
 export default Ideas;
+
+// add the ability to add card components similar to post-it notes where you can list ideas, edit or delete
