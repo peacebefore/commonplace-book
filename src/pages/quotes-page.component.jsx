@@ -1,6 +1,6 @@
-import QuotesList from '../../components/quotes-components/quotes';
+import QuotesList from '../components/quotes-components/quotes';
 import styled from 'styled-components';
-import background from '../../rebecca-g0GUAWtOh1c-unsplash.jpg';
+import background from '../components/quotes-components/rebecca-g0GUAWtOh1c-unsplash.jpg';
 
 const StyledContainer = styled.div`
   background-image: url(${background});
