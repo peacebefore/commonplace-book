@@ -1,9 +1,8 @@
 import styled from 'styled-components';
 
 const StyledContainer = styled.div`
-  border: 1px solid;
   padding: 25px 12px 18px;
-  background: rgba(247, 83, 118, 0.2);
+  background: rgba(247, 83, 118, 0.4);
   font-family: 'Merienda One';
 `
 const Source = styled.h2`

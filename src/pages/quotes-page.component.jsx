@@ -1,5 +1,6 @@
 import QuotesList from '../components/quotes-components/quotes';
 import styled from 'styled-components';
+import './quotes-page.styles.scss';
 import background from '../components/quotes-components/rebecca-g0GUAWtOh1c-unsplash.jpg';
 
 const StyledContainer = styled.div`
@@ -12,7 +13,8 @@ const StyledContainer = styled.div`
 
 const QuotesPage = () => {
   return (
-    <StyledContainer className='readings'>
+    <StyledContainer>
+      <h1> CommonPlace Book </h1>
       {QuotesList}
     </StyledContainer>
   );
