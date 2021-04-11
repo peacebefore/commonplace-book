@@ -1,27 +1,19 @@
-import QuotesList from '../components/quotes-components/quotes';
-import styled from 'styled-components';
-import './quotes-page.styles.scss';
-import background from '../components/quotes-components/rebecca-g0GUAWtOh1c-unsplash.jpg';
-
-const StyledContainer = styled.div`
-  background-image: url(${background});
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-`
+import QuotesList from "../components/quotes-components/quotes";
+import "./quotes-page.styles.js";
+import { QuotesContainer, Nav, NavContainer } from "./quotes-page.styles";
 
 const QuotesPage = () => {
   return (
-    <StyledContainer>
-      <h1> CommonPlace Book </h1>
+    <QuotesContainer>
+      <NavContainer>
+        <Nav> CommonPlace Book </Nav>
+      </NavContainer>
       {QuotesList}
-    </StyledContainer>
+    </QuotesContainer>
   );
 };
 
-export default QuotesPage
-;
+export default QuotesPage;
 
 // To DOs:
 // add a button that creates a new card component where you can enter a quote, save it, and add it to the json file. new quotes should be added at the top of the page. will most likely be added at the bottom of the json file though...

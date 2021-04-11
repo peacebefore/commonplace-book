@@ -1,9 +1,12 @@
+@import-normalize;
+
 @font-face {
-  font-family: 'Handlee';
-  src: local('Handlee'), url('./fonts/Handlee-Regular.ttf') format('truetype');
+  font-family: "Handlee";
+  src: local("Handlee"), url("./fonts/Handlee-Regular.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'Merienda One';
-  src: local('Merienda One'), url('./fonts/MeriendaOne-Regular.ttf') format('truetype');
+  font-family: "Merienda One";
+  src: local("Merienda One"),
+    url("./fonts/MeriendaOne-Regular.ttf") format("truetype");
 }
