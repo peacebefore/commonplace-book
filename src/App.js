@@ -1,11 +1,8 @@
-import './App.scss';
-
-import QuotesPage from './pages/quotes-page.component';
+import React from 'react';
+import { QuotesPage } from './pages/quotes-page.component';
 
 function App() {
-  return (
-    <QuotesPage />
-  );
+  <QuotesPage />;
 }
 
 export default App;

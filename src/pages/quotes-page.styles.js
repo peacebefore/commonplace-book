@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import background from "../components/quotes-components/rebecca-g0GUAWtOh1c-unsplash.jpg";
+import styled from 'styled-components';
+import background from './rebecca-g0GUAWtOh1c-unsplash.jpg';
 
 export const QuotesContainer = styled.div`
   background-image: url(${background});
@@ -17,7 +17,7 @@ export const NavContainer = styled.div`
 `;
 
 export const Nav = styled.h1`
-  font-family: "Handlee";
+  font-family: 'Handlee';
   font-size: 2rem;
   margin: 0px;
   padding: 20px;
