@@ -2,7 +2,7 @@ import React from 'react';
 import { QuotesPage } from './pages/quotes-page.component';
 
 function App() {
-  <QuotesPage />;
+  return <QuotesPage />;
 }
 
 export default App;

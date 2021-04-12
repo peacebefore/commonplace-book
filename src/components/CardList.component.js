@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import Card from './Card.component';
+import Card from './card.component';
 import QUOTE_DATA from '../utils/quote-data';
 
 const StyledRoot = styled.div`

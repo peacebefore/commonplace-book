@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import background from './rebecca-g0GUAWtOh1c-unsplash.jpg';
+import background from '../assets/rebecca-g0GUAWtOh1c-unsplash.jpg';
 
 export const QuotesContainer = styled.div`
   background-image: url(${background});

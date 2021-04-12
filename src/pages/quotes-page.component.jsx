@@ -1,4 +1,3 @@
-import React from 'react';
 import CardList from '../components/CardList.component';
 import './quotes-page.styles.js';
 import { QuotesContainer, Nav, NavContainer } from './quotes-page.styles';
