@@ -2,9 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import './index.scss';
-import './fonts/Handlee-Regular.ttf';
-import './fonts/MeriendaOne-Regular.ttf';
+import './index.css';
 
 ReactDOM.render(
   <React.StrictMode>

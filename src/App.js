@@ -1,9 +1,14 @@
 import React from 'react';
-import { QuotesPage } from './pages/quotes-page.component';
-import './App.scss';
+import { ThemeProvider } from 'styled-components';
+import { theme } from './styles/theme';
+import { QuotesPage } from './pages/quotes-page/quotes-page.component';
 
 function App() {
-  return <QuotesPage />;
+  return (
+    <ThemeProvider theme={theme}>
+      <QuotesPage />
+    </ThemeProvider>
+  );
 }
 
 export default App;

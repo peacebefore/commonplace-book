@@ -1,9 +1,10 @@
 import styled from 'styled-components';
+import { fonts, fontSizes } from '../../styles/theme/fonts';
 
 const CardContainer = styled.div`
   padding: 25px 12px 18px;
   background: rgba(247, 83, 118, 0.4);
-  font-family: 'Merienda One';
+  font-family: ${(props) => props.theme.fonts.body};
   border-radius: 10px;
   border: 1px solid #733e3e;
   box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.15);
@@ -12,7 +13,7 @@ const Source = styled.h2`
   color: #520012;
   font-weight: 300;
   @media (max-width: 500px) {
-    font-size: 1rem;
+    font-size: ${(props) => props.theme.fontSizes.title};
   }
 `;
 const Author = styled.div`

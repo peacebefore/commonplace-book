@@ -1,15 +1,17 @@
 import styled from 'styled-components';
+import { fontSizes } from '../../styles/theme/fonts';
+import { lineHeights, space } from '../../styles/theme/spacing';
 
 export const NavContainer = styled.div`
   position: fixed;
-  top: 0;
+  top: ${(props) => props.theme.space[0]};
   width: 100%;
 `;
 
 export const Nav = styled.h1`
-  font-family: 'Handlee';
-  font-size: 2rem;
-  margin: 0px;
-  padding: 20px;
+  font-family: ${(props) => props.theme.fonts.heading};
+  font-size: ${(props) => props.theme.fontSizes.h1};
+  margin: ${(props) => props.theme.space[0]};
+  padding: ${(props) => props.theme.lineHeights.copy};
   background-color: rgba(195, 236, 156);
 `;

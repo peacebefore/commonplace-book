@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import background from '../assets/rebecca-g0GUAWtOh1c-unsplash.jpg';
+import background from '../../assets/rebecca-g0GUAWtOh1c-unsplash.jpg';
 
 export const QuotesContainer = styled.div`
   background-image: url(${background});
@@ -7,5 +7,5 @@ export const QuotesContainer = styled.div`
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  margin-top: 75px;
+  margin-top: ${(props) => props.theme.space[5]};
 `;
