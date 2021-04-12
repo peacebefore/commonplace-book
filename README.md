@@ -12,3 +12,4 @@ TO DOs:
 - have the text show in the correct format (not as a paragraph but as a poem)
 - make background and font customizable
 - add login and registration features
+- add option to tag or organize quotes
