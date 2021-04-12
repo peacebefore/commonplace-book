@@ -1,0 +1,6 @@
+{
+  "files.autoSave": "onWindowChange",
+  "editor.formatOnSave": true,
+  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": true
+}

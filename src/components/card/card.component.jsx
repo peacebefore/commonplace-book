@@ -4,6 +4,9 @@ const CardContainer = styled.div`
   padding: 25px 12px 18px;
   background: rgba(247, 83, 118, 0.4);
   font-family: 'Merienda One';
+  border-radius: 10px;
+  border: 1px solid #733e3e;
+  box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.15);
 `;
 const Source = styled.h2`
   color: #520012;

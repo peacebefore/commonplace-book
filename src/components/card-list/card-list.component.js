@@ -1,6 +1,6 @@
 import styled from 'styled-components';
-import Card from './card.component';
-import QUOTE_DATA from '../utils/quote-data';
+import Card from '../card/card.component';
+import QUOTE_DATA from '../../utils/quote-data';
 
 const StyledRoot = styled.div`
   padding: 50px 12px;
