@@ -7,5 +7,4 @@ export const QuotesContainer = styled.div`
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  margin-top: ${(props) => props.theme.space[5]};
 `;

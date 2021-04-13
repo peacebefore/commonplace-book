@@ -1,12 +1,14 @@
 import React from 'react';
 import { ThemeProvider } from 'styled-components';
 import { theme } from './styles/theme';
-import { QuotesPage } from './pages/quotes-page/quotes-page.component';
+import { NavBar } from './components/nav-bar/nav-bar.component';
+import { Home } from './pages/home/home.component';
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <QuotesPage />
+      <NavBar />
+      <Home />
     </ThemeProvider>
   );
 }

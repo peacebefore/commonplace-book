@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { fonts, fontSizes } from '../../styles/theme/fonts';
 
 const CardContainer = styled.div`
   padding: 25px 12px 18px;
